@@ -17,11 +17,11 @@ def analyze_sentiment():
 
 st.title("Sentimind")
 
+txt = st.text_area(label="Enter you text")
 col1,col2,col3 = st.columns(3)
 with col1:
  st.write("")
 with col2:
-    txt = st.text_area(label="Enter you text")
     if (st.button("Analyse the sentiment of a text")):
        analyze_sentiment()    
 with col2:
