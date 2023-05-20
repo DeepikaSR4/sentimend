@@ -39,7 +39,7 @@ col1,col2,col3 = st.columns(3)
 with col1:
  st.write("")
 with col2:
-    if (st.button("Analyse the sentiment of a text")):
+    if (st.button("Analyse the sentiment")):
        if txt == "":
          st.error("The input cannot be empty")
        else:
