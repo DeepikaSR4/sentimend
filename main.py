@@ -15,7 +15,7 @@ def analyze_sentiment(texts):
     for percent_complete in range(100):
         time.sleep(0.1)
         my_bar.progress(percent_complete + 1)
-    st.success('Analysis Finished', icon="✅")
+    st.success('Analysis Finished')
     
     url = "https://api.apilayer.com/sentiment/analysis"
     payload = texts.encode("utf-8")
