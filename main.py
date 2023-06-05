@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 import string
 from nltk.corpus import stopwords
 
+nltk.download('punkt')
 nltk.download('vader_lexicon')
 nltk.download('stopwords')
 
